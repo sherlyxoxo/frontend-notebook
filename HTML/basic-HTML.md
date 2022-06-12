@@ -408,16 +408,16 @@ target:    窗口的打开方式： _self(默认会覆盖原来的窗口)   _bla
 
 
 \<table>\</table> 表格    
-\<tr></tr> 行    
-<td></td> 单元格  
-<th></th> 表头    加粗  加黑 自动居中  
+\<tr>\</tr> 行    
+\<td>\</td> 单元格  
+\<th>\</th> 表头    加粗  加黑 自动居中  
 （th标签写在 tr标签内部，th=第一行的td，但语义更清晰）    
-<caption></caption>  表格的大标题   写在内部  显示外部  居中     
+\<caption>\</caption>  表格的大标题   写在内部  显示外部  居中     
 
 可写可不写，突出表格的不同部分，使语义更加清晰    
-<thead></thead>  结构头  
-<tbody></tbody>  结构体  
-<tfoot></tfoot> 结构底  
+\<thead>\</thead>  结构头  
+\<tbody>\</tbody>  结构体  
+\<tfoot>\</tfoot> 结构底  
 对table添加的属性只改变tbody，不改变thead和tfoot  
 
 
@@ -476,8 +476,8 @@ rowspan：行合并
 1.明确合并哪几个单元格  
 2.通过左上原则，确定保留谁，删除谁  
 3.给保留的单元格设置，跨行合并rowspan，或跨列合并，colspan  
-4.在<td>标签里 写   
-<td rowspan=“合并的个数">  
+4.在\<td>标签里 写   
+\<td rowspan=“合并的个数">  
 5.不能跨结构合并 ，只能在thead中，或在tbody中，或在tfoot中  
 		   
 # 5. 列表
