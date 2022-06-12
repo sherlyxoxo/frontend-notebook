@@ -4,9 +4,9 @@
 ## 1.1 网页与网站
 
 网站由网页构成<br>
-网页内容包括：文字、图片、连接等元素
-网页是使用 html 超文本标记语言写的
-文件后缀名是 .html
+网页内容包括：文字、图片、连接等元素  
+网页是使用 html 超文本标记语言写的  
+文件后缀名是 .html  
 
 
 
@@ -95,9 +95,9 @@ search engine optimization
 
 ### 1）三大标签 
 
-1.title：网页标题标签 
-2.description : 描述
-3.keywords ：关键词
+1.title：网页标题标签   
+2.description : 描述  
+3.keywords ：关键词  
 
 ```html
 <!DOCTYPE html> 
