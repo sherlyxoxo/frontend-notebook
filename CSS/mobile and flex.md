@@ -5,17 +5,20 @@
 
 分辨率 iphone6/7/8 <br />物理分辨率 750*1334 <br />逻辑分辨率 375*667 比例关系2：1<br />
 
-![img](https://cdn.nlark.com/yuque/0/2022/png/27972378/1651202646526-7e022d03-592f-4752-8c6c-370914d53be6.png)
+![img](https://cdn.nlark.com/yuque/0/2022/png/27972378/1651200504273-0cd344fd-0804-4cea-bde3-fe2940472b63.png)
 
 # 2. 视口
 视口（viewport）就是浏览器显示页面内容的屏幕区域<br />使用meta标签设置视口宽度，制作适配不同设备宽度的网页<br /><metaname="viewport"content="width=device-width, initial-scale=1.0">
 # 3.移动端常见布局
 ## 3.1移动端单独制作
-		流式布局（百分比布局）<br />		flex 弹性布局（强烈推荐）<br />		less+rem+媒体查询布局<br />		混合布局
+​	   流式布局（百分比布局）<br />		flex 弹性布局（强烈推荐）<br />		less+rem+媒体查询布局<br />		混合布局
+
 ## 3.2 响应式
-		媒体查询<br />		bootstarp
+​	媒体查询<br />	bootstarp
+
 ## 3.3流式布局
-		流式布局，就是百分比布局，也称非固定像素布局。<br />                宽度自适应，高度固定<br />		是移动web开发使用的比较常见的布局方式
+​	流式布局，就是百分比布局，也称非固定像素布局。<br />    宽度自适应，高度固定<br />	是移动web开发使用的比较常见的布局方式
+
 # 4. flex布局
 flex弹性布局 <br />浏览器提倡的布局模型 <br />布局网页更简单、灵活、避免浮动脱标的问题<br />为父盒子设为 flex 布局以后，子元素的 float、clear 和 vertical-align 属性将失效
 
@@ -250,8 +253,8 @@ flex-start 默认值在侧轴的头部开始排列<br />flex-end 在侧轴的尾
     </div>
  </body>
 ```
-![image.png](https://cdn.nlark.com/yuque/0/2022/png/27972378/1651203904289-5c6cd3b3-4008-48ef-8f1d-48a27f53b8fa.png#clientId=u0c7f50d9-10ae-4&crop=0&crop=0&crop=1&crop=1&from=paste&height=304&id=ud3e9eb98&margin=%5Bobject%20Object%5D&name=image.png&originHeight=608&originWidth=1894&originalType=binary&ratio=1&rotation=0&showTitle=false&size=32505&status=done&style=stroke&taskId=u2b022590-c552-4744-83ad-ea7448564fe&title=&width=947)<br />使用flex属性修改弹性盒子伸缩比 <br />属性flex:值  数值（整数） <br />注意：只占用父盒子剩余尺寸的份数
-## 2）align-self
+![img](https://cdn.nlark.com/yuque/0/2022/png/27972378/1651203904289-5c6cd3b3-4008-48ef-8f1d-48a27f53b8fa.png)<br />使用flex属性修改弹性盒子伸缩比 <br />属性flex:值  数值（整数) <br />注意：只占用父盒子剩余尺寸的份数
+### 2）align-self
 控制子项自己在侧轴上的排列方式<br />属性允许单个项目有与其他项目不一样的对齐方式，可覆盖 align-items 属性<br />默认值为 auto，表示继承父元素的 align-items 属性，如果没有父元素，则等同于 stretch 
 
 # 5. 移动适配
@@ -511,5 +514,5 @@ max-width≤ <br />min-width ≥
 
 完整写法：media 关键词 媒体类型 <br />关键词 and/only/not <br />媒体类型 screen/print 打印预览/speech阅读器 /all默认
 ## 8.3 响应式布局容器
-	响应式需要一个父级做为布局容器，来配合子级元素来实现变化效果<br />	在不同屏幕下，通过媒体查询来改变这个布局容器的大小，再改变里面子元素的排列方式和大小<br />	父容器版心的尺寸划分<br />		超小屏幕（手机，小于 768px）：设置宽度为 100%<br />		小屏幕（平板，大于等于 768px）：设置宽度为 750px<br />		中等屏幕（桌面显示器，大于等于 992px）：宽度设置为 970px<br />		大屏幕（大桌面显示器，大于等于 1200px）：宽度设置为 1170px 
+响应式需要一个父级做为布局容器，来配合子级元素来实现变化效果<br />在不同屏幕下，通过媒体查询来改变这个布局容器的大小，再改变里面子元素的排列方式和大小<br />父容器版心的尺寸划分<br />超小屏幕（手机，小于 768px）：设置宽度为 100%<br />小屏幕（平板，大于等于 768px）：设置宽度为 750px<br />中等屏幕（桌面显示器，大于等于 992px）：宽度设置为 970px<br />大屏幕（大桌面显示器，大于等于 1200px）：宽度设置为 1170px 
 

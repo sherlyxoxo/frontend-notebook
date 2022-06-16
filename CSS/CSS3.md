@@ -26,7 +26,10 @@
 ## 2.1 translate位移
 transform：translate（水平，垂直） <br />如果只给一个值，只在x轴移动 <br />单独设置，translateX（） translateY（）<br />1.数字+px<br />2.百分比，盒子自身尺寸的百分比<br />/* transform: translate(100%,50%); *
 ## 2.2 rotate旋转
-	让元素在二维平面内顺时针或者逆时针旋转<br />	transform: rotate(角度deg)<br />	角度为正时，顺时针，角度为负时，逆时针<br />	默认旋转的中心点是元素的中心点<br />        旋转必须要有过渡属性
+让元素在二维平面内顺时针或者逆时针旋转<br />transform: rotate(角度deg)<br />角度为正时，顺时针，角度为负时，逆时针<br />默认旋转的中心点是元素的中心点<br />旋转必须要有过渡属性
+
+
+
 ```html
 <style>
    img {
@@ -69,7 +72,8 @@ transform：scale（缩放倍数）<br />不用带单位<br />大于1表示放�
 
 左手法则：判断旋转方向：左手握住旋转轴，拇指指向正值方向，手指弯曲方向为旋转正值方向。
 ## 3.4 3D呈现 - transfrom-style
-	控制子元素是否开启三维立体环境<br />	transform-style: flat  代表子元素不开启 3D 立体空间，默认的<br />	transform-style: preserve-3d 子元素开启立体空间<br />	代码写给父级，但是影响的是子盒子
+控制子元素是否开启三维立体环境<br />transform-style: flat  代表子元素不开启 3D 立体空间，默认的<br />transform-style: preserve-3d 子元素开启立体空间<br />代码写给父级，但是影响的是子盒子
+
 ## 3.5 空间缩放
 空间缩放 transform：scaleX（倍数)<br /> transform：scaleY（倍数) <br />transform：scaleZ（倍数) <br />transform：scale3d（,,,)
 # 4. 动画 animation
